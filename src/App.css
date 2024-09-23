@@ -11,18 +11,20 @@ input[type='date'] {
 
 input[type='checkbox'] {
   cursor: pointer;
+  accent-color: rgba(159, 230, 226, 0.863);
 }
 
 select[name='patrimoine'] {
+  border: rgb(19, 185, 177) solid 1px;
   margin-right: 10px;
   padding: 5px;
   cursor: pointer;
 }
 
 button {
+  border: rgb(19, 185, 177) solid 1px;
   background-color: rgba(185, 223, 221, 0.863);
   padding: 7px 10px;
-  border: black solid 0.5px;
   border-bottom: none;
   font-weight: bold;
 }
