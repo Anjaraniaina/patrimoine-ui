@@ -6,11 +6,17 @@ input[type='date'] {
   border: rgb(19, 185, 177) solid 1px;
   min-width: 200px;
   padding: 5px;
+  cursor: pointer;
+}
+
+input[type='checkbox'] {
+  cursor: pointer;
 }
 
 select[name='patrimoine'] {
   margin-right: 10px;
   padding: 5px;
+  cursor: pointer;
 }
 
 button {
@@ -19,6 +25,15 @@ button {
   border: black solid 0.5px;
   border-bottom: none;
   font-weight: bold;
+}
+
+button:hover {
+  background-color: rgba(159, 230, 226, 0.863);
+  padding: 7px 10px;
+  border: black solid 1px;
+  border-bottom: none;
+  font-weight: bold; 
+  cursor: pointer;
 }
 
 
